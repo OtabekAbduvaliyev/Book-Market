@@ -204,10 +204,10 @@ btn.addEventListener('click', () => {
     let mood = document.getElementById('default');
     btn.classList.toggle('fa-sun')
     if (btn.classList.toggle("fa-moon")) {
-        mood.href = './css/default.css';
+        mood.href = './default.css';
     }
     else {
-        mood.href = './css/black.css'
+        mood.href = './black.css'
     }
 })
 navBtn.addEventListener('click', () => {
